@@ -24,17 +24,17 @@
 #include <ctime>
 
 //Self
-#include "leetcode.h"
+#include "LC_Solution20.h"
 
 using namespace std;
-using namespace leetcode;
 
 int main(int argc, const char * argv[]) {
     // insert code here...
 	
-    Solution516 s;
-    string input = "abcdcba";
-    std::cout << s.removeMinChar(input) << "\n";
+    Solution s;
+    string input = "{{{";
+    
+    std::cout << s.isValid(input) << "\n";
     
     return 0;
 }

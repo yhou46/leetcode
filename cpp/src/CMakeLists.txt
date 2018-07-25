@@ -16,10 +16,10 @@ set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR}/bin)
 
 # Executables
 file(GLOB src
-	 "leetcode*.h"
-	 "leetcode*.cpp"
+	 "*.h"
+	 "*.cpp"
 )
-add_executable(leet_code_main main.cpp)
+add_executable(leet_code_main ${src} )
 # target_link_libraries( algo_datastructure algo_datastructure_lib)
 
 
