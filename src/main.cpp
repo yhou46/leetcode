@@ -23,12 +23,18 @@
 #include <chrono>
 #include <ctime>
 
+//Self
+#include "leetcode.h"
+
 using namespace std;
+using namespace leetcode;
 
 int main(int argc, const char * argv[]) {
     // insert code here...
 	
-	std::cout << "test\n";
+    Solution516 s;
+    string input = "abcdcba";
+    std::cout << s.removeMinChar(input) << "\n";
     
     return 0;
 }
