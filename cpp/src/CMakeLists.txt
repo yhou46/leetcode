@@ -1,20 +1,21 @@
 # Cmake minimum required version number
-cmake_minimum_required(VERSION 3.9)
-
-# Project name
-project (leetcode)
-
-# Set to use C++ 11
-set (CMAKE_CXX_STANDARD 11)
+# cmake_minimum_required(VERSION 3.9)
 
 # Output directories
 ## CMAKE_BINARY_DIR : if you are building in-source, this is the same as CMAKE_SOURCE_DIR, otherwise this is the top level directory of your build tree
 ## CMAKE_SOURCE_DIR : this is the directory which contains the top-level CMakeLists.txt, i.e. the top level source directory; DON'T set it manually
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR}/bin)
 
+# Need to set it on each CMakeLists.txt ?
+set (CMAKE_CXX_STANDARD 20)
 
+# Add all subdirectories
+# Add new subdirectories below
+add_subdirectory (solution_931)
+# End - Add all subdirectories
 
-# Executables
+# source files
+# this will not include files in subfolders
 file(GLOB src
 	 "*.h"
 	 "*.cpp"
