@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.9)
 
 # Project name
-project (leetcode)
+project (leetcode_cpp)
 
 # Add all subdirectories
 add_subdirectory (src)
