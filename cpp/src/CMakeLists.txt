@@ -11,6 +11,7 @@ set (CMAKE_CXX_STANDARD 20)
 
 # Add all subdirectories
 # Add new subdirectories below
+add_subdirectory (solution_1)
 add_subdirectory (solution_931)
 # End - Add all subdirectories
 

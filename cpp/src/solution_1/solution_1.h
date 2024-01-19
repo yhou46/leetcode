@@ -1,16 +1,15 @@
 //
-//  LC_Solution1.h
-//  leet_code_main
+//  solution_931.h
 //
-//  Created by Yunpeng Hou on 7/24/18.
 //
 
 #include <vector>
 #include <string>
 #include <unordered_map>
+#include <iostream>
 
-#ifndef LC_Solution1_h
-#define LC_Solution1_h
+#ifndef LC_solution_1_h
+#define LC_solution_1_h
 
 /*
  Ref: https://leetcode.com/problems/two-sum/description/
@@ -57,4 +56,4 @@ public:
     }
 };
 
-#endif /* LC_Solution1_h */
+#endif /* LC_solution_1_h */
