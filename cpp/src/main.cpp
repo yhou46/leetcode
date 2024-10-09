@@ -24,17 +24,19 @@
 #include <ctime>
 
 //Self
-#include "solution_931/solution_931.h"
+// #include "solution_931/solution_931.h"
+#include "solution_3005/solution_3005.h"
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
     // insert code here...
 	
+    std::vector<int> input = {1,2,2,3,1,4};
+
     Solution s;
-    vector<vector<int>> input = {{2,1,3}, {6,5,4}, {7,8,9}};
-    
-    std::cout << s.minFallingPathSum(input) << "\n";
+    const int result = s.maxFrequencyElements(input);
+    std::cout << result << "\n";
     
     return 0;
 }
