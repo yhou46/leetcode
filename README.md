@@ -9,4 +9,10 @@ Implementation of leetcode and other interviewing problems
 
 - Heap sort
 
-2. 
+2. Binary search
+
+3. Graph: BFS and DFS
+
+4. Dynamic programming
+
+5. Recursion (with cache)
