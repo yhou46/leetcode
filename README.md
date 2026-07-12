@@ -1,7 +1,10 @@
 # leetcode solutions
 Implementation of leetcode and other interviewing problems
 
-# Check basic algorithms
+## Tips and tricks:
+https://leetcode.cn/discuss/post/3583665/fen-xiang-gun-ti-dan-chang-yong-shu-ju-j-bvmv/
+
+## Check basic algorithms
 1. Sorting
 - Quick sort and partition
 
