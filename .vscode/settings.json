@@ -1,4 +1,5 @@
 {
     "cmake.sourceDirectory": "${workspaceFolder}/cpp",
     "cmake.buildDirectory": "${workspaceFolder}/cpp/build",
+    "python-envs.defaultEnvManager": "ms-python.python:pipenv",
 }

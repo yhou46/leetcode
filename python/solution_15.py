@@ -122,3 +122,6 @@ if __name__ == "__main__":
     # Run the solution code here
     nums = nums = [-1,0,1,2,-1,-4]
     print(Solution_sort1().threeSum(nums))
+
+    myDict: Dict[str, int] = {"key1": 1, "key2": 2}
+    print(myDict)
