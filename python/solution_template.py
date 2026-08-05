@@ -1,6 +1,6 @@
 import random
-from collections import deque, OrderedDict
-from typing import Dict, List, Optional, Self
+from collections import deque, defaultdict, OrderedDict
+from typing import Dict, List, Optional, Self, Tuple
 
 """
 Description: TBD
