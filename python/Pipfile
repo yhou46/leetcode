@@ -4,6 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+# This is for sorted containers, like SortedDict
+sortedcontainers = "*"
 
 [dev-packages]
 mypy = "*"

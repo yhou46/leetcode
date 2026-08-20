@@ -1,4 +1,5 @@
 import random
+import heapq
 from collections import deque, defaultdict, OrderedDict
 from typing import Dict, List, Optional, Self, Tuple
 
